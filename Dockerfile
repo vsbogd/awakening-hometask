@@ -41,3 +41,5 @@ ENV PYTHONPATH "${PYTHONPATH}:/app"
 
 # Cleanup
 RUN rm -rf /tmp/*
+
+CMD /app/test_server.sh
