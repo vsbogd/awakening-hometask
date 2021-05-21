@@ -17,7 +17,7 @@ Tasks:
 - for each received utterance parse it using `amrlib`, print resulting graphs
 - use each AMR graph to generate a sentence and print this sentence
 - does the generated sentence equal to the original one?
-- create a Dockerfile for the subscriber script you created; you can use the docker
+- create a separate Dockerfile for the subscriber script you created; you can use the docker
   image above as a parent image; the client should be started automatically when
   the container is started using `docker run` command
 - write a function with two arguments: a question and a word; the function
